@@ -489,7 +489,8 @@ public class Xls_Reader {
 		
 		//System.out.println(filename);
 		Xls_Reader datatable = null;
- System.out.println("Test")		
+		
+
 			 datatable = new Xls_Reader("H:\\Student_Selenium_Workspaces\\Framework_Weekend\\src\\Framework_XL_Files\\Controller.xlsx");
 				for(int col=0 ;col< datatable.getColumnCount("TC5"); col++){
 					System.out.println(datatable.getCellData("TC5", col, 1));
