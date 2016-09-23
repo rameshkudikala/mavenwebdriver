@@ -382,8 +382,6 @@ public class TestBase {
 		}
 	}
 
-
-// testing
 	@AfterSuite
 	public static void quit() {
 		driver.quit();
